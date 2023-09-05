@@ -3,10 +3,9 @@ body {
   background-size: cover;
 }
 .content {
-  background-color: #ffffffbd;
-  border: 2px solid rebeccapurple;
+  background-color: #ffffff;
   width: 800px;
-  height: 410px;
+  height: 500px;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -22,7 +21,6 @@ body {
 .model {
   width: 200px;
   height: 243.75px;
-  border: 2px solid rebeccapurple;
   margin: 0 80px;
 }
 img {
@@ -37,7 +35,7 @@ img {
   padding: 5px;
   margin: 0;
   overflow: hidden;
-  border: 1px solid rebeccapurple;
+  cursor: pointer;
   border-radius: 5px;
   display: inline-block;
   background-color: #fff;
@@ -47,4 +45,32 @@ img {
 }
 .col {
   padding: 0 10px;
+}
+.model {
+  position: relative;
+  margin-bottom: 60px;
+}
+.glass__test {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.glass__test img {
+  width: 110px;
+  margin: 60px 45px;
+}
+.glass__tag {
+  background-color: #ffdba4bb;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transform: translateY(100%);
+}
+.glass__tag .price {
+  font-weight: 700;
+}
+.glass__tag .desc {
+  font-size: 0.8rem;
 }
